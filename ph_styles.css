@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* the charset is used to specifify the character encoding and the utf-8 is for the character. the @font face is used for the different types of fonts we put in also by using a sorce to link and format it. */
 @font-face {
     font-family: Champagne;
     src: url('cac_champagne.ttf') format('woff'),
@@ -32,6 +33,7 @@
 
 */
 /* Structural Styles */
+/*  the html is there because it is the type of document we are using and we are using a selector for the background color. We are doing the same for the body, but also adding in a font family. The same thing goes for the header. The p tag has a selector for the margin(the space between), and the padding for the paragraphs. After that we add in a body tag and a p tag with a ">" to show that it is the child of the body. Lastly we put in an address with a font syle and size. We then align it tothe center and add padding to the top and bottom.   */
 html {
     background-color: hsl(91, 8%, 56%);
 }
@@ -64,6 +66,7 @@ address {
 }
 
 /* Navigation Styles */
+/* We add a nav and ancor it with a selector. We then add a font stack and padding for the top and bottom. Next we adda nav and ancor it with a link and do the same for visited to change the color to white and take off the undrline of the link with a background color. After we put the same thing but just change it hover and active  without a text-decoration.   */
 nav a {
     font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
     padding-top: 10px;
@@ -84,6 +87,7 @@ nav a:active {
 }
 
 /* Section Styles */
+/* next we add in the section.playbill and an h1 heading with a slector for a font size, weight, margin, and padding. Next we add in a section#play1 and a selector for the background color. you do the same thing for play 2 3 4. Now instead  of puting in a background color, we would put in font stack for paly 1 2 3 and 4. Then we put in a dt and selector with a font size, weight, and color. Lastly, we add in a dd with a selector for font size, margin-left and margin-bottom.  */
 section.playbill h1 {
     font-size: 3em;
     font-weight: normal;
